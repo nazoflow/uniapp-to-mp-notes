@@ -10,7 +10,7 @@
 	export default {
 		data() {
 			return {
-				title: 'Hello, uniapp-to-mp'
+				title: 'Hello, Uniapp'
 			}
 		},
 		onLoad() {
