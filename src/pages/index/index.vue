@@ -1,6 +1,5 @@
 <template>
 	<view class="content">
-		<image class="logo" src="/static/logo.png"></image>
 		<view>
 			<text class="title">{{title}}</text>
 		</view>
@@ -11,11 +10,12 @@
 	export default {
 		data() {
 			return {
-				title: 'Hello'
+				title: 'Hello, uniapp-to-mp'
 			}
 		},
 		onLoad() {
-
+			const baseInfo = uni.getAppBaseInfo()
+			console.log("baseInfo", baseInfo)
 		},
 		methods: {
 
